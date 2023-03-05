@@ -29,7 +29,7 @@
     height: auto;
     display: flex; 
     flex-direction: row-reverse;
-    background-color: red;
+    background-color: none;
 
 
     align-items: center;
