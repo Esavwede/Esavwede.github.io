@@ -1,10 +1,13 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */ 
+
+
 *
 {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Roboto","sans-serif";
     color: white; 
     text-decoration: none;
 }
@@ -13,6 +16,8 @@
 {
     background-color: aquamarine;
 }
+
+
 
 /****** Menu Icon Fixed ************/ 
 #menu-icon-container 
@@ -24,6 +29,7 @@
     height: auto;
     display: flex; 
     flex-direction: row-reverse;
+    background-color: red;
 
 
     align-items: center;
@@ -65,14 +71,13 @@
 
 #body-container 
 {
-    position: relative;
+    position: absolute;
     top: 0; 
     width: 100vw; 
     height: 100vh;
     display: flex; 
     justify-content: center;
     align-items: center;
-
     background-color: darkcyan; 
 }
 
@@ -103,7 +108,8 @@
 
 #body-text
 {
-    color: white; 
+    color: #fcfcff;
+    font-weight: 900; 
     font-size: 45px; 
 }
 
@@ -114,6 +120,20 @@
 /**********   Social Icons **************/ 
 
 #social-icons 
+{
+    position: absolute;
+    bottom: 0; 
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    z-index: 3; 
+}
+
+
+.social-icons-body
 {
     position: absolute;
     bottom: 0; 
@@ -200,7 +220,7 @@
 .navigation-item a 
 {
     text-decoration: none;
-    color: white; 
+    color: #fbfbf9; 
 }
 
 
@@ -680,7 +700,7 @@
 
     #body-text
     {
-        color: white; 
+        color: #fbfbf9; 
         font-size: 35px; 
     }
 
