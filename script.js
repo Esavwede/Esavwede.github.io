@@ -9,7 +9,7 @@ const pageName = pageNameElement.innerHTML
 
 function showNumber() 
 {
-    window.alert('My number 08081848029')
+    window.alert('Telegram / Whatsapp => 08081848029')
 }
 
 function showMenuManager() 

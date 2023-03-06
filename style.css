@@ -12,10 +12,28 @@
     text-decoration: none;
 }
 
+.glow 
+{
+    border: 3px solid rgb(120, 250, 120); 
+    animation-name: contact-border;
+    animation-delay: 0.9s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
 .aqua 
 {
     background-color: aquamarine;
+
 }
+
+@keyframes contact-border {
+    from{ border: 3px solid rgb(120, 250, 120); }
+    to{ border: 10px solid rgb(10, 247, 113)}
+}
+
+
 
 
 
